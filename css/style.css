@@ -60,7 +60,7 @@ body {
 }
 
 .nav__link:hover {
-    color: #27ae60;
+    color: #1e8449;
 }
 
 .header__language-switch {
@@ -189,7 +189,7 @@ body {
 }
 
 .slider__dot--active {
-    background-color: #27ae60;
+    background-color: #1e8449;
 }
 
 @media (min-width: 992px) {
@@ -334,7 +334,7 @@ body {
 
 .form__button {
     padding: 10px;
-    background-color: #27ae60;
+    background-color: #1e8449;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -377,13 +377,13 @@ body {
 }
 
 .cookie-consent__link {
-    color: #27ae60;
+    color: #1e8449;
     text-decoration: underline;
 }
 
 .cookie-consent__button {
     padding: 10px 20px;
-    background-color: #27ae60;
+    background-color: #1e8449;
     color: #fff;
     border: none;
     border-radius: 5px;
