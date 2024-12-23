@@ -489,10 +489,6 @@ body {
         gap: 15px;
     }
 
-    .header__language-switch {
-        display: none;
-    }
-
     .header__menu-button {
         display: flex;
     }
