@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-курсы по инвестициям для начинающих</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__container container">
+        <div class="header__logo">
+            <a href="index.html" class="header__logo-link">
+                <img src="images/logo.jpg" alt="ИнвестиКурсы" class="header__logo-image">
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                <li class="nav__item"><a href="privacy-policy.html" class="nav__link">Политика конфиденциальности</a></li>
+                <li class="nav__item"><a href="terms-and-conditions.html" class="nav__link">Условия использования</a></li>
+            </ul>
+        </nav>
+        <div class="header__language-switch">
+            <button class="language-switch__btn language-switch__btn--active" data-lang="ru">РУ</button>
+            <button class="language-switch__btn" data-lang="en">EN</button>
+        </div>
+        <button class="header__menu-button" id="menu-button" aria-label="Открыть меню" aria-expanded="false">
+            <span class="menu-button__bar"></span>
+            <span class="menu-button__bar"></span>
+            <span class="menu-button__bar"></span>
+        </button>
+    </div>
+</header>
+
+<main class="main">
+    <section class="slider">
+        <div class="slider__container container">
+            <div class="slider__slides">
+                <div class="slider__slide">
+                    <img src="images/slider1.png" alt="Инвестиции для начинающих" class="slider__image">
+                    <div class="slider__caption">Начните свой путь в мире инвестиций</div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/slider2.png" alt="Финансовое планирование" class="slider__image">
+                    <div class="slider__caption">Освойте финансовое планирование</div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/slider3.png" alt="Пассивный доход" class="slider__image">
+                    <div class="slider__caption">Создайте пассивный доход</div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/slider1.png" alt="Инвестиции для начинающих" class="slider__image">
+                    <div class="slider__caption">Начните свой путь в мире инвестиций</div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/slider2.png" alt="Финансовое планирование" class="slider__image">
+                    <div class="slider__caption">Освойте финансовое планирование</div>
+                </div>
+                <div class="slider__slide">
+                    <img src="images/slider3.png" alt="Пассивный доход" class="slider__image">
+                    <div class="slider__caption">Создайте пассивный доход</div>
+                </div>
+            </div>
+            <button class="slider__prev" id="slider-prev" aria-label="Предыдущий слайд">&#10094;</button>
+            <button class="slider__next" id="slider-next" aria-label="Следующий слайд">&#10095;</button>
+            <div class="slider__dots">
+                <span class="slider__dot slider__dot--active" data-slide="0"></span>
+                <span class="slider__dot" data-slide="1"></span>
+                <span class="slider__dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="courses__container container">
+            <h2 class="courses__title">Список доступных курсов</h2>
+            <ul class="courses__list">
+                <li class="courses__item">Инвестиционные стратегии</li>
+                <li class="courses__item">Финансовое планирование</li>
+                <li class="courses__item">Как начать инвестировать</li>
+                <li class="courses__item">Личные финансы</li>
+                <li class="courses__item">Управление капиталом</li>
+                <li class="courses__item">Пассивный доход</li>
+                <li class="courses__item">Инвестиции для начинающих</li>
+                <li class="courses__item">Долгосрочные вложения</li>
+                <li class="courses__item">Преимущества инвестирования</li>
+                <li class="courses__item">Советы по инвестициям</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="target-audience">
+        <div class="target-audience__container container">
+            <h2 class="target-audience__title">Для кого эти курсы</h2>
+            <p class="target-audience__description">Подходят для новичков, которые хотят узнать, как работать с финансами.</p>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="advantages__container container">
+            <h2 class="advantages__title">Преимущества обучения</h2>
+            <p class="advantages__description">Вы сможете понять, как работают инвестиции, не тратя время на сложные термины.</p>
+        </div>
+    </section>
+
+    <section class="instructors">
+        <div class="instructors__container container">
+            <h2 class="instructors__title">Наши Инструкторы</h2>
+            <div class="instructors__list">
+                <div class="instructor">
+                    <img src="images/avatar1.png" alt="Иван Иванов" class="instructor__image">
+                    <h3 class="instructor__name">Иван Иванов</h3>
+                    <p class="instructor__bio">Эксперт по инвестициям с более чем 10-летним опытом.</p>
+                </div>
+                <div class="instructor">
+                    <img src="images/avatar2.jpg" alt="Мария Смирнова" class="instructor__image">
+                    <h3 class="instructor__name">Мария Смирнова</h3>
+                    <p class="instructor__bio">Специалист по финансовому планированию и управлению капиталом.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonials__container container">
+            <h2 class="testimonials__title">Отзывы учеников</h2>
+            <div class="testimonials__list">
+                <div class="testimonial">
+                    <p class="testimonial__text">«Этот курс изменил мой подход к финансам!»</p>
+                    <p class="testimonial__author">- Иван Иванов</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial__text">«Простые объяснения и практические советы.»</p>
+                    <p class="testimonial__author">- Мария Смирнова</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="registration">
+        <div class="registration__container container">
+            <h2 class="registration__title">Регистрация на курс</h2>
+            <form class="registration__form" id="registration-form">
+                <div class="form__group">
+                    <label for="name" class="form__label">Имя</label>
+                    <input type="text" id="name" name="name" class="form__input" required>
+                </div>
+                <div class="form__group">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" id="email" name="email" class="form__input" required>
+                </div>
+                <div class="form__group">
+                    <label for="password" class="form__label">Пароль</label>
+                    <input type="password" id="password" name="password" class="form__input" required>
+                </div>
+                <button type="submit" class="form__button">Зарегистрироваться</button>
+            </form>
+            <div class="form__message" id="form-message"></div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__container container">
+        <nav class="footer__nav">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="privacy-policy.html" class="footer__link">Privacy Policy</a></li>
+                <li class="footer__item"><a href="terms-and-conditions.html" class="footer__link">Terms and Conditions</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<div class="cookie-consent">
+    <div class="cookie-consent__content">
+        <p class="cookie-consent__text">
+            Мы используем куки для улучшения вашего опыта.
+            <a href="privacy-policy.html" class="cookie-consent__link">Узнать больше</a>.
+        </p>
+        <button class="cookie-consent__button" id="accept-cookies">Принять</button>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
