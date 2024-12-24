@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: "Inter", "Inter Placeholder", sans-serif;
+    background-color: #F5F5F7FF;
 }
 
 .container {
@@ -11,8 +11,9 @@ body {
 }
 
 .header {
-    background-color: #2c3e50;
-    color: #fff;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #111;
     padding: 10px 0;
     position: sticky;
     top: 0;
@@ -34,7 +35,7 @@ body {
 }
 
 .header__logo-link {
-    color: #fff;
+    color: #111;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
@@ -53,14 +54,14 @@ body {
 }
 
 .nav__link {
-    color: #ecf0f1;
+    color: #111;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
 }
 
 .nav__link:hover {
-    color: #145A32;
+    color: #193df4;
 }
 
 .header__language-switch {
@@ -70,8 +71,8 @@ body {
 
 .language-switch__btn {
     background: none;
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #111;
+    color: #111;
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 3px;
@@ -79,8 +80,8 @@ body {
 }
 
 .language-switch__btn--active {
-    background-color: #fff;
-    color: #2c3e50;
+    background-color: #111;
+    color: #fff;
 }
 
 .header__menu-button {
@@ -99,6 +100,31 @@ body {
     height: 3px;
     background-color: #fff;
     border-radius: 2px;
+}
+
+.intro,
+.slider,
+.courses,
+.target-audience,
+.advantages,
+.instructors,
+.testimonials,
+.registration {
+    background-color: #fff;
+    margin: 60px;
+    padding: 60px;
+    border-radius: 32px;
+}
+
+.intro:hover,
+.slider:hover,
+.courses:hover,
+.target-audience:hover,
+.advantages:hover,
+.instructors:hover,
+.testimonials:hover,
+.registration:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .slider {
@@ -126,6 +152,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 5px;
 }
 
 .slider__image {
@@ -189,7 +216,7 @@ body {
 }
 
 .slider__dot--active {
-    background-color: #145A32;
+    background-color: #111;
 }
 
 @media (min-width: 992px) {
@@ -213,11 +240,6 @@ body {
 .main {
     min-height: 80vh;
     padding: 40px 0;
-}
-
-.courses, .advantages {
-    padding: 20px 0;
-    background: #ecf0f1;
 }
 
 .courses__title,
@@ -246,6 +268,22 @@ body {
     padding: 15px;
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.courses__item:hover {
+    font-weight: 700;
+}
+
+.courses__link {
+    color: #111;
+    text-decoration: none;
+}
+
+.courses__link:hover {
+    text-decoration: underline;
 }
 
 .target-audience__description,
@@ -253,7 +291,6 @@ body {
 .policy__content,
 .terms__content {
     font-size: 18px;
-    color: #34495e;
 }
 
 .testimonials__list {
@@ -267,6 +304,12 @@ body {
     padding: 15px;
     border-radius: 5px;
     text-align: center;
+}
+
+.testimonial:hover {
+    background-color: #dae5e6;
+    color: #111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial__text {
@@ -291,6 +334,12 @@ body {
     border-radius: 5px;
     width: 250px;
     text-align: center;
+}
+
+.instructor:hover {
+    background-color: #f5f5f7;
+    color: #111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .instructor__image {
@@ -334,7 +383,7 @@ body {
 
 .form__button {
     padding: 10px;
-    background-color: #145A32;
+    background-color: #111;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -343,7 +392,7 @@ body {
 }
 
 .form__button:hover {
-    background-color: #219150;
+    background-color: #333;
 }
 
 .form__message {
@@ -356,19 +405,17 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     background-color: rgba(44, 62, 80, 0.95);
     color: #fff;
-    padding: 20px 30px;
-    border-radius: 10px;
+    padding: 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     z-index: 10000;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 90%;
-    width: 400px;
 }
 
 .cookie-consent__text {
@@ -377,13 +424,13 @@ body {
 }
 
 .cookie-consent__link {
-    color: #145A32;
+    color: #fff;
     text-decoration: underline;
 }
 
 .cookie-consent__button {
     padding: 10px 20px;
-    background-color: #145A32;
+    background-color: #111;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -392,7 +439,8 @@ body {
 }
 
 .cookie-consent__button:hover {
-    background-color: #219150;
+    color: #111;
+    background-color: #fff;
 }
 
 .footer {

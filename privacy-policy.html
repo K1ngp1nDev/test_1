@@ -10,20 +10,22 @@
 <header class="header">
     <div class="header__container container">
         <div class="header__logo">
-            <a href="index.html" class="header__logo-link">ИнвестиКурсы</a>
+            <a href="index.html" class="header__logo-link">
+                <img src="images/logo.svg" alt="ИнвестиКурсы" class="header__logo-image" width="360" height="360">
+            </a>
         </div>
         <nav class="header__nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
-                <li class="nav__item"><a href="privacy-policy.html" class="nav__link">Политика конфиденциальности</a></li>
-                <li class="nav__item"><a href="terms-and-conditions.html" class="nav__link">Условия использования</a></li>
+                <li class="nav__item"><a href="privacy-policy.html" class="nav__link">Политика</a></li>
+                <li class="nav__item"><a href="terms-and-conditions.html" class="nav__link">Условия</a></li>
             </ul>
         </nav>
         <div class="header__language-switch">
-            <button class="language-switch__btn" data-lang="ru">РУ</button>
-            <button class="language-switch__btn language-switch__btn--active" data-lang="en">EN</button>
+            <button class="language-switch__btn language-switch__btn--active" data-lang="ru">РУ</button>
+            <button class="language-switch__btn" data-lang="en">EN</button>
         </div>
-        <button class="header__menu-button" id="menu-button">
+        <button class="header__menu-button" id="menu-button" aria-label="Открыть меню" aria-expanded="false">
             <span class="menu-button__bar"></span>
             <span class="menu-button__bar"></span>
             <span class="menu-button__bar"></span>
